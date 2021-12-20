@@ -1,0 +1,27 @@
+close all;
+%analising signal (sinusodial)
+f=2 %Maximum frequency of the input signal
+fs=20*f %Sampling rate
+t=0:1/fs:1%time
+a=2%amplitude
+x=a*sin(2*pi*f*t);
+
+%level shifting
+x1 = x+a;
+
+%Quantization 
+q_op = round(x1);
+
+ %decimal to binary conversion
+ enco = de2bi(q_op, 'left-msb');
+
+ %pcm receiver
+ deco = bi2de(enco, "left-msb")
+ %shifting to amplitude level to orignal value
+ xr = deco-a;
+
+ %ploting
+ plot(t,x,'r-',t,xr,'k+-');
+ xlabel('time');
+ ylabel('Amplitude');
+ legend('Original signal', 'Reconstructed signal')

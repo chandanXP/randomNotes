@@ -1,0 +1,13 @@
+cabinet: corsair : 3500
+processor: ryzen 5600x: 26300
+gpu: nividia gtx 1650: 23000
+ram: hyperx fury 2x8gb: 8000
+ssd: gigabyte 512gb: 5800 
+motherboard:  gigabyte aorus: 11300
+hdd : wd : 1tb: 4000
+monitor: acer nitro: 29000
+power supply: antesports : 3200
+keyboard: cosmicbyte : 2000
+mouse : coconut gm4: 600
+pad : 300
+table: 5000

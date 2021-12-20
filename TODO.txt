@@ -1,0 +1,11 @@
+multi threading
+dp algo
+question   
+minimum spanning tree     
+exceptional handling and exception
+
+
+DC: unit 2 
+covariance functions, ergodicity, power spectral density, Gaussian distribution, Uniform distribution, Rayleigh
+distribution, Binomial distribution, Poission distribution, Weiner distribution, Wiener-Khinchin theorem, Central
+limit theorem.                                                                                                                                                                                                                                         

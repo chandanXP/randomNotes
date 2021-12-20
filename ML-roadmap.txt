@@ -1,0 +1,14 @@
+ML roadmap
+python
+tensor flow 
+scikit learn
+linear algebra
+statistics
+learn core ml algos
+
+python libraries
+numpies
+pandas
+
+learn deployements
+html, css,  jango
